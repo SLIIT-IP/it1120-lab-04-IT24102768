@@ -12,9 +12,9 @@ public class IT24102768Lab4Q2
 		if(num1>100 || num1<=0)
 		{
 			System.out.println("Invalid input for exam marks. Terminating program.");
-			
+			return;
 		}
-		else
+		
 
 
 		System.out.print("Please enter lab submission marks (out of 100): ");
@@ -23,8 +23,9 @@ public class IT24102768Lab4Q2
 		if(num2>100 || num2<=0)
 		{
 			System.out.println("Invalid input for lab submission marks. Terminating program.");
+			return;
 		}
-		else
+		
 
 
 		System.out.print("Please enter the percentage given for the exam: ");
